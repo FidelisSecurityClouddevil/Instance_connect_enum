@@ -15,10 +15,10 @@ For full functionality, the script will require a user/role with the following A
 - Installing:  ``` pip install -r requierments.txt  ```
 
  *EC2 enumeration with user credentials*:
- ``` python3 ec2-instance-connect-enum.py -aws_access_key <aws_access_key> -aws_secret <aws secret access key>  -enum_ec2 ```
+ ``` python3 ec2-instance-connect-enum.py -aws_access_key <aws_access_key> -aws_secret <aws secret access key> -user <ec2 instance user> -enum_ec2 ```
  
  *EC2 enumeration with role credentials*:
-  ``` python3 ec2-instance-connect-enum.py -aws_access_key <aws_access_key> -aws_secret <aws secret access key> -aws_session_token <aws session token> -enum_ec2 ```   <br /> <br /> 
+  ``` python3 ec2-instance-connect-enum.py -aws_access_key <aws_access_key> -aws_secret <aws secret access key>  -user <ec2 instance user> -aws_session_token <aws session token> -enum_ec2 ```   <br /> <br /> 
 ![role_ec2](pictures/enum_role_ec2.png)
 
  *Connect to EC2 using instance connect with role credentials:*
