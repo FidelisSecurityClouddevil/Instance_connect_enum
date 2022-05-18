@@ -2,6 +2,9 @@
 
 Script to enumerate ec2's in aws orgnaziation and check which instances are possible to connect to, using instnace connect.  <br />
 The script uses Amazon's instanceconnect library with some modifications.
+[Boto3](https://link-url-here.org](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+[aws-ec2-instance-connect-cli](https://github.com/aws/aws-ec2-instance-connect-cli)
+
 For full functionality, the script will require a user/role with the following AWS permissions:
   - ec2:DescribeInstances
   - ec2-instance-connect:SendSSHPublicKey
